@@ -41,9 +41,9 @@ setup(
     python_requires=">=3.9, <4",
     include_package_data=True,
     install_requires=[
-        "requests==2.31.0",
+        "requests==2.32.0",
         "SQLAlchemy==2.0.36",
-        "pandas==2.0.3",
+        "pandas==2.2.3",
         "pydantic==2.6.4",
         "arrow==1.2.3",
         "openpyxl==3.1.1",
@@ -57,8 +57,9 @@ setup(
         "fastapi==0.110.0",
         "fastapi-pagination==0.12.23",
         "apscheduler==3.10.4",
-        "eastmoneypy==0.1.7",
+        "eastmoneypy==0.1.9",
         "orjson==3.10.3",
+        "numpy==2.1.3",
     ],
     project_urls={  # Optional
         "Bug Reports": "https://github.com/zvtvz/zvt/issues",
